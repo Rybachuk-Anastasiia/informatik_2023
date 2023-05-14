@@ -1,0 +1,317 @@
+body{
+	font-family:'Montserrat', sans-serif;
+
+	background: #ffffff;
+}
+
+ul{
+    margin: 0px;
+    padding: 0;
+    list-style-type: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    
+}
+
+ul li{
+	list-style-type: none;
+}
+
+
+a{
+	text-decoration: none;
+    color: #000000;
+}
+nav{
+    background-color: #ffffff;
+    border-color: rgb(163, 69, 69);
+    min-height: 30px;
+    float: right;
+}
+nav a{
+    display: block;
+    text-overflow:center;
+    line-height:4em;
+    font-weight:300;
+
+}
+
+nav li {
+    float: right;
+    width: 100px;
+}
+nav li a:hover{
+    color:#000000; ;
+    background-color:#f38e2f;
+    
+}
+
+
+
+
+.menu__list{
+    gap: 35px;
+    display: flex;
+}
+
+
+
+
+
+.img{
+    width:43px;
+    height:408px;
+    float: left;
+}
+.round{
+    width:400px;
+    height:308px;
+    float: left;
+    
+  border-radius: 2000px;
+}
+
+    
+
+h1{
+    font-size: 45px;
+  
+  font-style: italic;
+  text-align: center;
+  color: #333;
+  margin: 20px 0;
+  padding: 0;
+  display: inline-block;
+  
+ 
+  
+ 
+  font-weight: 800;  
+  text-align: right;
+  margin-right: 30;
+}
+h2{
+font-size: 14px;
+text-align:center;
+float:right;
+
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+    float:right;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+  }
+  
+  .fa-search {
+    font-size: 18px;
+  }
+ 
+
+  
+.footer{
+    background-color: #ff8b0e;
+    padding: 70px 0 ;
+
+}
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+.container{
+    max-width: 1170px;
+    
+    margin:auto;
+
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width:25%;
+    pdding:0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color:#460eff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    background-color:#007bff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+ margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16 px;
+    text-transform: capitalize;
+    color:#ffffff;
+
+    text-decoration: none;
+    font-weight: 300;
+    color: #171111;
+    display:block
+}
+.copyright{
+    font-size: 14px;
+text-align:center;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .mat{
+    
+margin-left: auto;
+  margin-right: auto;
+    
+    height: 200px;
+    width: 1200px;
+   display: block;
+ 
+    
+  }
+  .comp{
+    text-align: justify;
+    text-indent: 13px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .comp1{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+}
+.comp2{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+
+}
+.comp3{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+
+}
+.comp4{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+
+}
+.comp5{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+
+}
+.comp6{
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+
+}
+.audacity{
+    width: 200px;
+    float: left;
+    position: relative;
+    align-items: center;
+
+}
+.adobe{
+    width: 200px;
+}
+.ableton{
+     width: 200px;
+
+}
+.reaper{
+  width: 200px;  
+}
+.studio{
+    width: 200px;  
+
+}
+.comp_v{
+    text-align: center;
+    text-indent: 13px;
+    font-weight: 900;
+    font-size: 40px;
+
+}
+.sound{
+    width: 1220px;
+    height: 200px;
+   
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
